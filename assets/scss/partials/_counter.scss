@@ -1,0 +1,24 @@
+$orange_color: rgb(255, 96, 0);
+
+.counter {
+    padding: 8% 15%;
+    width: 100%;
+    background-color: $orange_color;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+    h2 {
+        font-size: 100px;
+        font-weight: lighter;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .middle {
+        margin: auto 80px;
+        width: 35%;
+    }
+}

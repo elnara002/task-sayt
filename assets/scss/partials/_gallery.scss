@@ -1,0 +1,19 @@
+$orange_color:rgb(255, 96, 0);
+.gallery{
+    padding: 80px 10%;  
+}
+.amazing{
+    text-align: center;
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-weight: lighter;
+        font-size: 45px;
+    color:$orange_color;
+    }
+}
+.photos{
+    flex-wrap: wrap;
+    margin: 7% 0;
+}

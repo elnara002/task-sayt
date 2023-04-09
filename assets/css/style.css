@@ -1,0 +1,389 @@
+header {
+  background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+  height: 700px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0px 10%;
+  background-color: white;
+  justify-content: space-between;
+  height: 60px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.container #home {
+  color: rgb(255, 96, 0);
+}
+.container .logo {
+  padding: 15px 15px;
+  background-color: black;
+}
+.container ul li {
+  margin: 20px 30px;
+  list-style: none;
+  display: inline-block;
+}
+.container ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container ul li a:hover {
+  color: rgb(255, 96, 0);
+}
+
+.slogan {
+  margin-top: 250px;
+  text-align: center;
+}
+.slogan .serving {
+  padding: 10px 0;
+  background-color: black;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 38px;
+}
+.slogan .best {
+  background-color: rgb(255, 96, 0);
+  width: 35%;
+  margin: 0 auto;
+  font-size: 50px;
+}
+.slogan button {
+  margin-top: 30px;
+  font-size: large;
+  background-color: white;
+  padding: 17px 35px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.slogan button:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  top: 50px;
+  position: absolute;
+  right: 30px;
+}
+.menu span {
+  width: 28px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 2.5px 5px;
+}
+.menu .short-line {
+  transition: 0.5s;
+}
+.menu:hover .short-line {
+  width: 15px;
+}
+
+.social-media {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+.social-media ul li {
+  list-style: none;
+}
+.social-media button {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  border: none;
+  font-size: 20px;
+  margin: 2px 8px;
+}
+.social-media button:hover {
+  background-color: black;
+  color: white;
+}
+
+.best-quality {
+  width: 100%;
+  padding: 90px 0;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 50px;
+  width: 30%;
+}
+.text #food {
+  background-color: rgb(255, 96, 0);
+  color: white;
+  padding: 5px 0;
+}
+
+.photo {
+  margin-left: 38%;
+}
+.photo img {
+  width: 90%;
+}
+
+.icon {
+  padding: 20px 80px;
+}
+.icon i {
+  font-size: 110px;
+}
+.icon i:hover {
+  color: rgb(255, 96, 0);
+}
+.icon p {
+  font-size: 20px;
+}
+
+.left {
+  padding: 30px 20px;
+}
+.left .heart {
+  margin-top: 30%;
+}
+.left .heart p {
+  text-align: end;
+  margin: auto 15px;
+}
+.left .bulb p {
+  width: 60%;
+  margin: auto 5px;
+}
+
+.right {
+  padding: 8% 10px;
+  text-align: center;
+}
+.right p {
+  margin: 5px auto;
+  width: 60%;
+}
+
+.counter {
+  padding: 8% 15%;
+  width: 100%;
+  background-color: rgb(255, 96, 0);
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.counter h2 {
+  font-size: 100px;
+  font-weight: lighter;
+}
+.counter p {
+  font-size: 20px;
+}
+.counter .middle {
+  margin: auto 80px;
+  width: 35%;
+}
+
+.gallery {
+  padding: 80px 10%;
+}
+
+.amazing {
+  text-align: center;
+}
+.amazing p {
+  font-size: 15px;
+}
+.amazing h2 {
+  font-weight: lighter;
+  font-size: 45px;
+  color: rgb(255, 96, 0);
+}
+
+.photos {
+  flex-wrap: wrap;
+  margin: 7% 0;
+}
+
+.reviews {
+  background-color: rgb(248, 249, 250);
+  padding: 8% 11%;
+  text-align: center;
+}
+.reviews h2 {
+  font-size: 45px;
+  font-weight: lighter;
+}
+.reviews #apostrophe-1 {
+  height: 120px;
+  text-align: start;
+  font-size: 150px;
+  font-weight: bold;
+  color: rgb(255, 96, 0);
+}
+.reviews #apostrophe-2 {
+  text-align: end;
+  font-size: 150px;
+  font-weight: bolder;
+  color: rgb(255, 96, 0);
+}
+.reviews #city {
+  color: rgb(255, 96, 0);
+  margin-top: 15px;
+}
+.reviews #comment {
+  text-align: center;
+  color: rgb(83, 83, 83);
+  font-size: 18px;
+}
+.reviews img {
+  margin: 15px 0;
+  border-radius: 50%;
+  border: none;
+  width: 90px;
+  height: 90px;
+}
+.reviews button {
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+}
+.reviews button:hover {
+  background-color: rgb(255, 96, 0);
+}
+
+.cafe-menu {
+  height: 500px;
+  position: relative;
+}
+
+.menu-text {
+  margin: 10% 0;
+  text-align: center;
+}
+.menu-text p {
+  font-size: 20px;
+}
+.menu-text h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  color: rgb(255, 96, 0);
+}
+
+.menu-img {
+  bottom: -20%;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+
+.food-name {
+  text-align: center;
+  background-color: white;
+  padding: 30px 0;
+}
+.food-name:hover {
+  background-color: rgb(255, 96, 0);
+  color: white;
+}
+.food-name p {
+  font-size: 15px;
+}
+
+.reserve {
+  background-color: rgb(248, 249, 250);
+  padding-top: 15%;
+  padding-bottom: 10%;
+}
+
+.reserve-text {
+  text-align: center;
+}
+.reserve-text p {
+  font-size: 20px;
+}
+.reserve-text h2 {
+  font-weight: lighter;
+  font-size: 45px;
+  color: rgb(255, 96, 0);
+}
+
+.reservation {
+  position: absolute;
+  margin: 4% 8%;
+  width: 84%;
+  background-color: white;
+  padding: 30px 20px;
+  padding-bottom: 70px;
+}
+.reservation input {
+  width: 22%;
+  padding-left: 10px;
+  margin-left: 30px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+.reservation button {
+  padding: 15px 70px;
+  margin-left: 50px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(255, 96, 0);
+}
+
+footer {
+  padding: 10% 8%;
+  background-color: black;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: rgb(255, 96, 0);
+}
+
+p {
+  margin-top: 15px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.news {
+  color: white;
+}
+.news #information:hover {
+  color: rgb(255, 96, 0);
+}
+.news .date {
+  font-size: 15px;
+  color: rgb(255, 96, 0);
+}
+
+hr {
+  margin-top: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */

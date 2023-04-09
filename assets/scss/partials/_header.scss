@@ -1,0 +1,133 @@
+$orange_color: rgb(255, 96, 0);
+
+header {
+    background-image: url(https://megaone.acrothemes.com/cafe/images/banner-image.jpg);
+    height: 700px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0px 10%;
+    background-color: white;
+    justify-content: space-between;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+
+    #home {
+        color: $orange_color;
+    }
+
+    .logo {
+        padding: 15px 15px;
+        background-color: black;
+    }
+
+    ul {
+        li {
+            margin: 20px 30px;
+            list-style: none;
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    color: $orange_color;
+                }
+            }
+        }
+    }
+}
+
+.slogan {
+    margin-top: 250px;
+    text-align: center;
+
+    .serving {
+        padding: 10px 0;
+        background-color: black;
+        width: 30%;
+        margin: 0 auto;
+        font-size: 38px;
+    }
+
+    .best {
+        background-color: $orange_color;
+        width: 35%;
+        margin: 0 auto;
+        font-size: 50px;
+    }
+
+    button {
+        margin-top: 30px;
+        font-size: large;
+        background-color: white;
+        padding: 17px 35px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.menu {
+    top: 50px;
+    position: absolute;
+    right: 30px;
+
+    span {
+        width: 28px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        margin: 2.5px 5px;
+
+    }
+
+    .short-line {
+        transition: .50s;
+    }
+
+    &:hover {
+        .short-line {
+            width: 15px;
+        }
+    }
+}
+
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    ul li {
+        list-style: none;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        border: none;
+        font-size: 20px;
+        margin: 2px 8px;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

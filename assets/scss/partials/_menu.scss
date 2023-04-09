@@ -1,0 +1,44 @@
+$orange_color: rgb(255, 96, 0);
+
+.cafe-menu {
+    height: 500px;
+    position: relative;
+}
+
+.menu-text {
+    margin: 10% 0;
+    text-align: center;
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-weight: lighter;
+        font-size: 40px;
+        color: $orange_color;
+    }
+}
+
+.menu-img {
+    bottom: -20%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+
+.food-name {
+    text-align: center;
+    background-color: white;
+    padding: 30px 0;
+
+    &:hover {
+        background-color: $orange_color;
+        color: white;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}

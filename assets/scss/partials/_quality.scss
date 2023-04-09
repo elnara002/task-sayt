@@ -1,0 +1,28 @@
+$orange_color:rgb(255, 96, 0);
+.best-quality {
+        width: 100%;
+        padding: 90px 0;
+        position: relative;
+    }
+
+    .text {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        font-size: 50px;
+        width: 30%;
+        
+            #food {
+                background-color: $orange_color;
+                color: white;
+                padding: 5px 0;
+            }
+        }
+        
+        .photo {
+        margin-left: 38%;
+
+        img {
+            width: 90%;
+        }
+    }
